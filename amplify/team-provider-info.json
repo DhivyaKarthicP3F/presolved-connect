@@ -9,17 +9,37 @@
       "UnauthRoleName": "amplify-presolvedconnect-dev-150236-unauthRole",
       "StackName": "amplify-presolvedconnect-dev-150236",
       "StackId": "arn:aws:cloudformation:us-east-1:039289871235:stack/amplify-presolvedconnect-dev-150236/09ff2f30-a9ef-11ed-bb15-0eac30df53d1",
-      "AmplifyAppId": "d3kyz7ygsmg2ut"
+      "AmplifyAppId": "d3kyz7ygsmg2ut",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-presolvedconnect-dev-150236-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "api": {
-        "presolvedconnect": {}
+        "presolvedconnect": {},
+        "connectRESTAPI": {}
       },
       "auth": {
         "presolvedconnect4e9766cc": {}
       },
       "storage": {
         "recordedSessions": {}
+      },
+      "function": {
+        "connectAPIUsers": {
+          "deploymentBucketName": "amplify-presolvedconnect-dev-150236-deployment",
+          "s3Key": "amplify-builds/connectAPIUsers-37506a34394e2f724650-build.zip"
+        },
+        "connectAPIQueues": {
+          "deploymentBucketName": "amplify-presolvedconnect-dev-150236-deployment",
+          "s3Key": "amplify-builds/connectAPIQueues-695a66773076334e7667-build.zip"
+        },
+        "connectAPIRoutingProfiles": {
+          "deploymentBucketName": "amplify-presolvedconnect-dev-150236-deployment",
+          "s3Key": "amplify-builds/connectAPIRoutingProfiles-69686f7048446d666e2f-build.zip"
+        },
+        "connectAPISecurityProfiles": {
+          "deploymentBucketName": "amplify-presolvedconnect-dev-150236-deployment",
+          "s3Key": "amplify-builds/connectAPISecurityProfiles-4b6c49466a372f4d6777-build.zip"
+        }
       }
     }
   }

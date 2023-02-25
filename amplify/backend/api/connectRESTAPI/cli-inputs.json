@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "paths": {
+    "/connect/users": {
+      "name": "/connect/users",
+      "lambdaFunction": "connectAPIUsers",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/connect/queues": {
+      "name": "/connect/queues",
+      "lambdaFunction": "connectAPIQueues",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/connect/routing-profiles": {
+      "name": "/connect/routing-profiles",
+      "lambdaFunction": "connectAPIRoutingProfiles",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/connect/securit-profiles": {
+      "name": "/connect/securit-profiles",
+      "lambdaFunction": "connectAPISecurityProfiles",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
